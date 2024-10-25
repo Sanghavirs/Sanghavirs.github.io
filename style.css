@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background: #f3d3c3;
+    width: 30%;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info, .skills {
+    margin-top: 20px;
+}
+
+.contact-info p, .skills p {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: 60%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.python {
+    width: 90%;
+    background: #007bff;
+}
+
+.c-programming {
+    width: 60%;
+    background: #28a745;
+}
+
+.mongo {
+    width: 80%;
+    background: #ff6347;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.name-section h1 {
+    font-size: 2em;
+    color: #1e3c72;
+}
+
+.objective, .education, .languages, .interests, .additional-info {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
